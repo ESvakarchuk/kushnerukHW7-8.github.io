@@ -1,0 +1,137 @@
+footer {
+    background: url("../img/background-bottom.jpg") -488px 0px;
+    background-size: cover;
+    height: 114px;
+}
+
+.foo_wrapper {
+    margin: 0 auto;
+    width: 77.9%;
+}
+
+.copy2 {
+    padding-top: 52px;
+    float: right;
+    color: #fff;
+    font-family: "Open-Sans Light", Arial, sans-serif;
+    font-size: 12px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
+}
+
+.copy2_end {
+    font-family: "Open-Sans Extrabold", Arial, sans-serif;
+}
+
+.foot a {
+    display: inline-block;
+    float: left;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 42px;
+    margin-left: 40px;
+}
+
+.foot a:hover {
+    border-bottom: 2px solid #edbfff;
+}
+
+.foot {
+    margin: 0 0 0 -4px;
+}
+
+@media all and (min-width: 769px) and (max-width: 960px) {
+    footer {
+        background: url("../img/background-bottom1.jpg") -1520px 0px;
+        background-size: cover;
+        height: 201px;
+    }
+    .foo_wrapper {
+        margin: 0 auto;
+        width: 87.9%;
+    }
+    .copy2 {
+        padding-top: 102px;
+        float: right;
+        color: #fff;
+        font-family: "Open-Sans Light", Arial, sans-serif;
+        font-size: 12px;
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
+    }
+    .copy2_end {
+        font-family: "Open-Sans Extrabold", Arial, sans-serif;
+    }
+    .foot a {
+        display: inline-block;
+        float: left;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+        color: #fff;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        font-size: 20px;
+        padding-top: 42px;
+        margin-left: 40px;
+    }
+    .foot a:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+    .foot {
+        margin: 0 0 0 -4px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    footer {
+        height: 201px;
+    }
+    .foo_wrapper {
+        margin: 0 auto;
+        width: 440px;
+    }
+    .foot {
+        margin: 0 0 0 0;
+    }
+    .foot a {
+        display: inline-block;
+        float: left;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+        color: #fff;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        font-size: 20px;
+        padding-top: 42px;
+        margin-left: 20px;
+    }
+    .copy2 {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 102px;
+        height: 10px;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 479px) {
+    footer {
+        height: 201px;
+        margin: 0 auto;
+    }
+    .foo_wrapper {
+        margin: 0 auto;
+        width: 50%;
+        width: 100%;
+    }
+    .menu__footer {
+        display: none;
+    }
+    .copy2 {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 41px;
+        width: 140px;
+        height: 10px;
+    }
+}
